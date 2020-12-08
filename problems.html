@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     
-    <title> SF History Home </title>
+    <title> Problems </title>
     
     <!-- stylesheets -->
     <link rel="stylesheet" href="/indexstyle.css">
@@ -17,6 +17,18 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Mono&display=swap" rel="stylesheet">
     
     <style>
+      input[type=text], select, textarea {
+        width: 100%;
+        padding: 12px;
+        border: 1px solid #3F6184;
+        border-radius: 4px;
+        resize: vertical;
+      }
+
+      label {
+        padding: 12px 12px 12px 0;
+        display: inline-block;
+      }
     </style>
     
   </head> 
@@ -84,21 +96,62 @@
       </div>
       
       <!--space row--> <div class="s row"> </div>
+      <!--space row--> <div class="ss row"> </div>
       
       <div class="row">
         <!--space column--> <div class="col-xl-1"> </div>
-        <div class="col-xl">
-         <h4 class="content">
-           Problems
-          </h4>
+        <div class="col-xl-10">
+          <div class="row">
+            <div class="col-xl-12">
+              <div class="row">
+                <label for="subject">
+                  <h4 class="content">
+                    Problems
+                  </h4>
+                </label>
+              </div>
+              <div class="row">
+                <div class="col-xl-12">
+                  <p class="words">
+                    We are currently in the beginning stages of our website so ther may be some issues. 
+                    Please tell about how your experince was and what we can do to make it better. 
+                  </p>
+                </div>
+              </div>
+              <div class="row">
+                <textarea id="subject" 
+                          name="subject" 
+                          placeholder="Tell us about any problems you had with the using the cite here" 
+                          style="max-width: 100%; height: 300px;">
+                </textarea>
+              </div>
+            </div>
+          </div>
+          <!--space row--> <div class="ss row"> </div>
+          <div class="row">
+          <a href="index.html"
+             style="text-decoration:none;">
+            <h4 class="input">
+                Submit
+            </h4>
+           </a>
         </div>
+        </div>   
       </div>
       
-          <!--footer-->
+      <!--space row--> <div class="ss row"> </div> <div class="ss row"> </div>
+      
+           <!--footer-->
+      
+      <div class="ss row">
+        <div class=" col-xl-12"
+             style="background-color: #3F6184;">
+        </div>
+      </div> 
       <div class="f row">
         <div class="f col-xl-1"
              style="text-align: right">
-           <p class="footer"> Contact: </p>
+           <p class="footer"> Contacts: </p>
         </div>
         <div class="f col-xl-2">
           <div class="f row">
@@ -111,7 +164,17 @@
             <p class="footer"> © 2020 </p>
           </div>
         </div>
-        <div class="f col-xl-9"> </div>
+    <!--space row--> <div class="f col-xl-1"> </div>
+        <div class="f col-xl-7">
+           <p class="footer"> 
+             We are two students that are currently learning about webdesign. 
+             This project is a culmination of what we have learned this semester, 
+             and also a way for people to learn more about the histories of San 
+             Francisco neighborhoods and landmarks. 
+          </p>
+        </div>
+        <div class="f col-xl-1">
+        </div>
       </div>
       
     </div>

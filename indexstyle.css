@@ -78,6 +78,12 @@ h4.content{
   max-width: 100%; 
 }
 
+.wline {  
+  height: 0.5px; 
+  background: #F6F7F9; 
+  max-width: 100%; 
+}
+
 h4.input{
   border: #5FAEB6 solid 1px;
   background: #FFFFFF;
@@ -100,3 +106,20 @@ h4.input:hover{
 [class*="home cards"]:hover{
   border: #5FAEB6 solid 4px;
 }
+
+.google-maps {
+    position: relative;
+    padding-bottom: 50%; // This is the aspect ratio
+    height: 0;
+    overflow: hidden;
+}
+
+.google-maps iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100% !important;
+  height: 90% !important;
+}
+
+/* This is a test */
