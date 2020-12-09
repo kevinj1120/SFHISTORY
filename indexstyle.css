@@ -1,10 +1,10 @@
 .container{
   align:right; 
-  border: green solid 2px;
+  //border: green solid 2px;
 }
 
 [class*="h col"]{
-  border: yellow solid 2px;
+  //border: yellow solid 2px;
   background-color: #3F6184;
   height: 80px;
   color: #F6F7F9; 
@@ -19,18 +19,18 @@
 }
 
 [class*="col"]{
-  border: yellow solid 2px;
+  //border: yellow solid 2px;
 }
 
 [class*="f col"]{
-  border: yellow solid 2px;
+  //border: yellow solid 2px;
   background-color: #3F6184;
   height: 150px;
   color: #F6F7F9; 
 }
 
 .row{
-  border: red solid 3px;
+  //border: red solid 3px;
 }
 
 h2.header {
